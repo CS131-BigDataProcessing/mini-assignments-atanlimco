@@ -1,0 +1,4 @@
+  124  cd CS131/CS131_fa24_datafiles/Lec02/
+  125  grep -o "wor[a-z,A-Z]*" goodluck.txt 
+  126  grep -o "[a-z,A-Z]*dred[a-z,A-Z]*" goodluck.txt 
+  127  history > a2_shell_log.txt
