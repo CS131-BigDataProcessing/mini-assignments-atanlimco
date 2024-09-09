@@ -1,0 +1,4 @@
+  50  466 goodluck.txt
+
+50 is the line count of the goodluck.txt file.
+466 is the word count of the goodluck.txt file.

@@ -1,0 +1,9 @@
+  260  grep -o "wor[a-z,A-Z]*" goodluck.txt
+  261  grep -o "[a-z,A-Z]*dred[a-z,A-Z]*" goodluck.txt
+  262  grep -o "Good luck, babe" goodluck.txt
+  263  grep -o -n "Good luck, babe" goodluck.txt
+  265  wc goodluck.txt
+  266  wc -l -w goodluck.txt
+  267  wc -l -w goodluck.txt > "Tanlimco-A_a2_counts.txt"
+  268  vi Tanlimco-A_a2_counts.txt 
+  269  history > "Tanlimco-A_a2_cmds.log"
