@@ -1,4 +1,5 @@
-  50  466 goodluck.txt
+      6      78     450
 
-50 is the line count of the goodluck.txt file.
-466 is the word count of the goodluck.txt file.
+6 is the line count.
+78 is the word count.
+450 is the byte count.

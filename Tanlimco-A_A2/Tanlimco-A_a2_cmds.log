@@ -7,3 +7,8 @@
   267  wc -l -w goodluck.txt > "Tanlimco-A_a2_counts.txt"
   268  vi Tanlimco-A_a2_counts.txt 
   269  history > "Tanlimco-A_a2_cmds.log"
+  470  grep "Good luck, babe" goodluck.txt | wc -l -w > Tanlimco-A_a2_counts.txt
+  471  grep "Good luck, babe" goodluck.txt | wc > Tanlimco-A_a2_counts.txt
+  472  vi Tanlimco-A_a2_counts.txt
+  474  history > Tanlimco-A_a2_cmds.log
+
