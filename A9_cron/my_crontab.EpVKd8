@@ -1,0 +1,8 @@
+#Daily File Cleanup using temporary directory called temp_folder
+0 2 * * * rm temp_folder/*
+
+#Weekly System Backup, saving it as my_backup.tar.gz
+0 3 * * 0 tar -czf /mnt/scratch/FA24_CS131_Jessica/ltanlimcofa24/backups/my_backup.tar.gz /mnt/scratch/FA24_CS131_Jessica/ltanlimcofa24
+
+#Usage Report Email
+30 8 * * * df -h | mail -s "Disk Usage Report" averi.tanlimco@sjsu.edu

@@ -1,0 +1,10 @@
+a. What other types of tasks (provide 2) could benefit from automation using cron or at?
+
+One task that could benefit from automation using “cron” is sending out regularly scheduled code builds to a server to make sure  the most current version of the build runs properly.
+Another task that could benefit from automation using “at” is when you know you will be away from your computer but need to wait for a task that is currently running to finish before sending out another command. You can use the “at” command to schedule another command to run after when the previous task is expected to finish.
+
+b. What potential risks are there with poorly managed automated tasks, and how can you avoid them (e.g., ensuring backups work correctly)?
+
+One risk from a poorly managed task is that storage space could easily be filled up if you have a task that is supposed to create backups (or other large files) without deleting or overwriting the previous ones. Another risk is tasks occurring at the wrong time if you accidentally type the scheduled time incorrectly, causing it to happen more or less often than you expect it to. Another risk that could occur is having multiple automated tasks run at the same time, causing the computer to slow down.
+You can avoid these risks by regularly looking at your crontab to make sure you know what tasks are currently running, when they are running, and that they are working as expected.
+
