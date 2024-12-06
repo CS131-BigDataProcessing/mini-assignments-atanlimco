@@ -1,0 +1,5 @@
+setup.py
+A12_publish_module_package.egg-info/PKG-INFO
+A12_publish_module_package.egg-info/SOURCES.txt
+A12_publish_module_package.egg-info/dependency_links.txt
+A12_publish_module_package.egg-info/top_level.txt
